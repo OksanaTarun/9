@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OksanaTarun/9.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Oksana <toksana.6@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OksanaTarun/9/issues"
+  },
+  "homepage": "https://github.com/OksanaTarun/9#readme",
+  "dependencies": {
+    "cypress": "^11.0.1",
+    "jest": "^29.3.1"
+  }
+}
