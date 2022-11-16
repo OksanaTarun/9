@@ -18,11 +18,16 @@ describe("Бонус = 50", () => {
   });
 });
 
+describe("Бонус = 0", () => {
+  it("Бонус = 0", () => {
+    expect(calculateBonus(0, 0)).toBe(0);
+    expect(calculateBonus(0, 0)).toEqual(0);
+  });
+});
 
-// describe("Бонус = 0", () => {
-//   it("Бонус = 0", () => {
-//     expect(calculateBonus(0, 0)).toBe(0);
-//     expect(calculateBonus(0, 0)).toEqual(0);
-//   });
-// });
-
+describe("Бонус = сумма", () => {
+  it("Бонус = сумма", () => {
+    const sum = 10;
+    expect(calculateBonus(1,9)).toBe(sum);
+  });
+});
